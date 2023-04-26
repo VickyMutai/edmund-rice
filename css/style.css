@@ -47,9 +47,80 @@ body {
     align-items: center;
 }
 
+.main-projects {
+    height: 50vh;
+}
+
+.gallery {
+    margin-top: 5%;
+    height: 80vh;
+}
+
+.contact-us {
+    background-image: url('../img/cleanup.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* set the color and opacity of the overlay */
+}
+
+/* Style the input fields */
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #C68E17;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the contact information */
+.contact-info {
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f5963a;
+}
+
 footer p {
     text-align: center;
     font-size: 12px;
     bottom: 0;
-    position: static;
 }
