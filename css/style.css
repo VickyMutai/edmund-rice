@@ -1,0 +1,55 @@
+/* Orange - #f5963a Blue - #2ba4d6 Light blue - #2db6e8*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+    color: #fff;
+}
+
+.cover {
+    background-image: url('../img/erep.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* set the color and opacity of the overlay */
+}
+
+.featured-projects {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+.featured-projects .card {
+    display: flex;
+    align-items: center;
+}
+
+.about-info {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    bottom: 0;
+    position: static;
+}
