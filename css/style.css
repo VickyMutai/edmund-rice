@@ -10,7 +10,7 @@ body {
 }
 
 .cover {
-    background-image: url('../img/erep.jpg');
+    background-image: url('../img/camps/camp1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
